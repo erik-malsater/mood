@@ -1,0 +1,142 @@
+#main_page_navbar{
+    position:fixed;
+	top:0rem;
+	width:100vw;
+	z-index:9999;
+    display: none;
+    background-color: white;
+    color: white;
+    
+}
+
+#header_navbar{
+    position:fixed;
+	top:0rem;
+	width:100vw;
+	z-index:9999;
+    display: block;
+    background-color: white;
+    color: white;
+}
+
+.mobileNavbarContainer{
+    background-color: $dark_color;
+    display: flex;
+    justify-content: space-between;
+    //font-size: 3em;
+    align-items: center;
+    width: 100vw;
+    margin: 0 auto;
+    height: 5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    box-sizing: border-box;
+
+    .dropdown_header{
+        font-size: 3rem;
+    }
+
+
+    #hamburgerButton{
+        //color: white;
+        width: 60px;
+        height: 45px;
+        transform: rotate(0deg);
+        transition: .5s ease-in-out;
+        cursor: pointer;
+
+        span{
+            //display: block;
+            position: absolute;
+            //height: 9px;
+            height: 5px;
+            width: 100%;
+            background-color: white;
+            //border-radius: 9px;
+            border-radius: 7px;
+            opacity: 1;
+            left: 0;
+            transform: rotate(0deg);
+            transition: .25s ease-in-out;
+            //transition: 5s ease-in-out;
+        }
+
+        span:nth-child(1) {
+            top: 0px;
+            transform-origin: left center;
+        }
+        
+        span:nth-child(2) {
+            top: 18px;
+            transform-origin: left center;
+        }
+        
+        span:nth-child(3) {
+            top: 36px;
+            transform-origin: left center;
+        }
+
+
+    }
+}
+/*
+#hamburgerButton span{
+    //display: block;
+    position: absolute;
+    //height: 9px;
+    height: 7px;
+    width: 100%;
+    background-color: white;
+    //border-radius: 9px;
+    border-radius: 7px;
+    opacity: 1;
+    left: 0;
+    transform: rotate(0deg);
+    transition: .25s ease-in-out;
+    //transition: 5s ease-in-out;
+}
+*/
+/*
+#hamburgerButton span:nth-child(1) {
+    top: 0px;
+    transform-origin: left center;
+}
+
+#hamburgerButton span:nth-child(2) {
+    top: 18px;
+    transform-origin: left center;
+}
+
+#hamburgerButton span:nth-child(3) {
+    top: 36px;
+    transform-origin: left center;
+}
+*/
+
+
+#hamburgerButton.open span:nth-child(1) {
+    transform: rotate(45deg);
+    top: -3px;
+    left: 8px;
+}
+
+#hamburgerButton.open span:nth-child(2) {
+    width: 0%;
+    opacity: 0;
+}
+
+#hamburgerButton.open span:nth-child(3) {
+    transform: rotate(-45deg);
+    top: 39px;
+    left: 8px;
+}
+
+
+
+#navbarDropdownItems{
+    display: none;
+    background-color: white;
+    color: black;
+    //margin-top: 20px;
+}
+

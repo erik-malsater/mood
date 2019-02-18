@@ -1,0 +1,31 @@
+.profile_and_post_container{
+    //display: flex;
+    //justify-content: center;
+    width: 100vw;
+    padding: 6rem 2rem 0 2rem;
+    box-sizing: border-box;
+    //flex-wrap: wrap;
+
+    #go_back_button{
+        width: 4rem;
+        height: 3rem;
+        background-color: white;
+        //border: none;
+        border: 0.01rem solid #CBCBCB;
+        margin-bottom: 1rem;
+
+        img{
+            margin-top: 0.3rem;
+            width: 1.5rem;
+            height: auto;
+        }
+    }
+
+    .art_frame{
+        margin: 0 auto;
+    }
+
+    .description_text{
+        text-align: left;
+    }
+}
