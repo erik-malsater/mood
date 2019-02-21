@@ -2,21 +2,21 @@
 
     <nav id="header_navbar">
 
-        <div class="mobileNavbarContainer">
+        <div class="mobile_navbar_container">
 
             <h1 class="dropdown_header">Mood</h1>
 
-            <div id="hamburgerButton">
+            <div id="hamburger_button">
                 <span></span>
                 <span></span>
                 <span></span>
             </div>
 
-            <!--<button id="hamburgerButton">III</button>-->
+            <!--<button id="hamburger_button">III</button>-->
 
         </div>
 
-        <div id="navbarDropdownItems">
+        <div id="navbar_dropdown_items">
 
             <p>About</p>
             <p>About</p>

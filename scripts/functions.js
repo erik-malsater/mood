@@ -16,9 +16,9 @@
             }
         });
 
-        $('#hamburgerButton').click(function(){
+        $('#hamburger_button').click(function(){
             $(this).toggleClass('open');
-            $('#navbarDropdownItems').slideToggle(200);
+            $('#navbar_dropdown_items').slideToggle(200);
         });
 
         console.log("hej");
