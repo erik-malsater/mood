@@ -1,18 +1,25 @@
 .profile_and_post_container{
     //display: flex;
     //justify-content: center;
-    width: 100vw;
-    padding: 6rem 2rem 0 2rem;
+    //width: 100vw;
+    width: 20rem;
+    margin: 0 auto;
+    padding-top: 4.5rem;
+    //padding: 4.5rem 1.5rem 0 1.5rem;
     box-sizing: border-box;
     //flex-wrap: wrap;
 
     #go_back_button{
         width: 4rem;
         height: 3rem;
+        padding: 0;
+        border: none;
         background-color: white;
+        margin-left: -1.2rem;
+        //background-color: white;
         //border: none;
-        border: 0.01rem solid #CBCBCB;
-        margin-bottom: 1rem;
+        //border: 0.01rem solid #CBCBCB;
+        margin-bottom: 0.5rem;
 
         img{
             margin-top: 0.3rem;

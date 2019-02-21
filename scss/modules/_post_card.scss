@@ -11,13 +11,13 @@
     }
 
     h2{
-        font-size: 1.5rem;
+        font-size: 1.25rem;
     }
 
     .art_frame{
 
-            width: 18rem;
-            height: 18rem;
+            width: 20rem;
+            height: 20rem;
             background-color: $art_card_color;
             display: flex;
             justify-content: center;
@@ -30,8 +30,8 @@
                 object-fit: contain;
                 //width: auto;
                 //height: 100%;
-                max-width: 17.5rem;
-                max-height: 17.5rem;
+                max-width: 19rem;
+                max-height: 19rem;
                 border: 0;
                 //margin: auto;
             }
