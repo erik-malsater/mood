@@ -79,8 +79,37 @@
         /*#header_search_form_field:focus{
             background-color: white;
         }*/
+    }
 
-        
+    #navbar_dropdown_items{
+        //padding-top: 1rem;
+        display: none;
+        background-color: white;
+        color: black;
+        box-shadow: 0 10px 10px -10px gray;
+
+        p{
+            margin: 0 auto;
+        }
+    }
+
+    .drop_down_single_item_box{
+        width: 100vw;
+        height: 5rem;
+        display: flex;
+        align-items: center;
+    }
+
+    .drop_down_single_item_box:first-child{
+        border-bottom: 1px solid $inactive_form_field_color;
+    }
+
+    #dropdown_search_form{
+        margin-top: 0;
+    }
+
+    #dropdown_search_form_button{
+        background-color: white;
     }
 
     #header_link_to_about_us{
