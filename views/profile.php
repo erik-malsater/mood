@@ -17,7 +17,7 @@
 
         <?php
 
-        include '../includes/dropdown_header.php';
+        include '../includes/other_pages_dropdown_menu.php';
 
         ?>
 

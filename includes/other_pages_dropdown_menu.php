@@ -1,20 +1,20 @@
-<nav id="main_page_dropdown_menu">
+<header id="other_pages_dropdown_menu">
 
-    <div class="mobile_navbar_container">
+    <nav id="header_navbar">
 
-        <h2 class="dropdown_header">Mood</h2>
+        <div class="mobile_navbar_container">
 
-        <div id="hamburger_button">
-            <span></span>
-            <span></span>
-            <span></span>
+            <h1 class="dropdown_header">Mood</h1>
+
+            <div id="hamburger_button">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
         </div>
 
-        <!--<button id="hamburger_button">III</button>-->
-
-    </div>
-
-    <div id="mobile_dropdown_item_container">
+        <div id="mobile_dropdown_item_container">
 
         <div class="drop_down_single_item_box">
 
@@ -33,8 +33,10 @@
 
         </div>
 
-    </div>
+        </div>
 
 
 
-</nav>
+    </nav>
+
+</header>

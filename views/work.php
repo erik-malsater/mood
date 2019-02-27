@@ -15,17 +15,13 @@
             include '../includes/fetch_single_post.php';
         ?>
 
-        <!--<header id="dropdown_header">-->
-
 
         <?php
 
-            include '../includes/dropdown_header.php';
+            include '../includes/other_pages_dropdown_menu.php';
 
         ?>
 
-
-    <!-- </header>-->
 
         <main>
 

@@ -18,17 +18,16 @@
 
         $('#hamburger_button').click(function(){
             $(this).toggleClass('open');
-            $('#navbar_dropdown_items').slideToggle(200);
+            $('#mobile_dropdown_item_container').slideToggle(200);
         });
 
-        console.log("hej");
 
         $(window).scroll(function(){                          
             if ($(this).scrollTop() > $('#main_page_header').height()) {
-                $('#main_page_navbar').fadeIn(200);
-                $("#mobileNavbarContainer").css("display", "flex")
+                $('#main_page_dropdown_menu').fadeIn(200);
+                $("#mobile_navbar_container").css("display", "flex")
             } else {
-                $('#main_page_navbar').fadeOut(400);
+                $('#main_page_dropdown_menu').fadeOut(400);
             }
         });
 

@@ -1,0 +1,19 @@
+#other_pages_dropdown_menu{
+    background-color: $dark_color;
+    color: white;
+    width: 100vw;
+    overflow: auto;
+    text-align: center;
+
+
+    #header_navbar{
+        position:fixed;
+        top:0rem;
+        width:100vw;
+        z-index:9999;
+        display: block;
+        background-color: white;
+        color: white;
+    }
+}
+
