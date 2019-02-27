@@ -19,9 +19,6 @@
         <div id="navbar_dropdown_items">
 
             <p>About</p>
-            <p>About</p>
-            <p>About</p>
-            <p>About</p>
             <input type="search">
             <input type="submit">
 

@@ -17,11 +17,12 @@
     <div id="navbar_dropdown_items">
 
         <p>About</p>
-        <p>About</p>
-        <p>About</p>
-        <p>About</p>
-        <input type="search">
-        <input type="submit">
+        <form action="" id="dropdown_search_form">
+            <input type="search" class="header_search_form_field">
+            <button type="submit" class="header_search_form_button" form="dropdown_search_form" value="submit">
+                <img src="images/search_icon2.png" alt="">
+            </button>
+        </form>
 
     </div>
 

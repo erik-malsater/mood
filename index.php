@@ -17,9 +17,9 @@
 
             <form action="includes/" id="header_search_form">
 
-                <input type="text" name="search" id="header_search_form_field" placeholder="Search for works and artists">
+                <input type="text" name="search" id="header_search_form_field" class="header_search_form_field" placeholder="Search for works and artists">
 
-                <button type="submit" id="header_search_form_button" form="header_search_form" value="submit">
+                <button type="submit" id="header_search_form_button" class="header_search_form_button" form="header_search_form" value="submit">
                     <img src="images/search_icon2.png" alt="">
                 </button>
 
