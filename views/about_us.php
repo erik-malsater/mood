@@ -18,7 +18,7 @@
         ?>
 
 
-        <main>
+        <main id="about_us_main">
 
             <div class="profile_and_post_container">
 
