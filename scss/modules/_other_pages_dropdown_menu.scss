@@ -67,6 +67,13 @@
             height: 3.9rem;
             display: flex;
             align-items: center;
+
+            a{
+                text-align: center;
+                text-decoration: none;
+                color: black;
+                margin: 0 auto;
+            }
         }
 
         .header_search_form_field{

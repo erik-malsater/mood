@@ -29,7 +29,7 @@
 
         <div class="drop_down_single_item_box">
 
-            <p>About</p>
+            <a href="views/about_us.php"><p>About</p></a>
 
         </div>
 
