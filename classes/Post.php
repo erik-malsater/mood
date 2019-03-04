@@ -15,12 +15,13 @@ class Post{
             AS creator_name 
             FROM works 
             INNER JOIN creators 
-            ON works.creator_id = creators.id 
-            LIMIT 10');
+            ON works.creator_id = creators.id');
 
         $statement->execute();
 
         $fetched_posts = $statement->fetchAll(PDO::FETCH_ASSOC);
+
+        shuffle($fetched_posts);
 
         return $fetched_posts;
     }

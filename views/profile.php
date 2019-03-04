@@ -34,9 +34,7 @@
                         <img src="<?=$fetched_profile['profile_picture']?>" alt="<?=$fetched_profile['name']?>">
                     </div>
                     <h2><?=$fetched_profile['name']?></h2>
-                    <p class="description_text"><?=$fetched_profile['description']?>owno woivnow woivnro 
-                    wovinwor evrib burb bu buv urbvurb ubvru b ubr ubrubrbr urb urbvubru brub rubvuvbruvbr 
-                    ubv bv b ubrvubrvu r bru ubeiubrvrowino wronvo</p>
+                    <p class="description_text"><?=$fetched_profile['description']?></p>
                 </div>
 
             </div>
