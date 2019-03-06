@@ -32,7 +32,65 @@
         margin: 0 auto;
     }
 
+    .profile_name_header{
+        color: $complementary_color;
+    }
+
     .description_text{
         text-align: left;
     }
+
+}
+
+.creators_work_container{
+
+    margin-top: 2.2rem;
+
+    h2{
+        font-size: 1.25rem;
+    }
+
+    .creators_work_feed_container{
+        width: 90vw;
+        margin: 2rem auto 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        //justify-content: space-between;
+        align-content: flex-start;
+    }
+
+    .work_feed_art_frame{
+            background-color: $art_card_color;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            //padding-top: 0.6vw;
+            //padding: 0.25rem;
+            margin-bottom: 1rem;
+            box-sizing: border-box;
+            text-align: center;
+        
+        width: 25vw;
+        height: 25vw;
+        margin-left: 2.5vw;
+        margin-right: 2.5vw;
+
+        a{
+            max-height: 24vw;
+            max-width: 24vw;
+        }
+        
+        img{
+            object-fit: contain;
+                //width: auto;
+                //height: 100%;
+                border: 0;
+                margin: 0;
+
+            max-height: 24vw;
+            max-width: 24vw;
+        }
+    }
+
 }

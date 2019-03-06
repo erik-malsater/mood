@@ -33,17 +33,24 @@
                     <div class="art_frame">
                         <img src="<?=$fetched_profile['profile_picture']?>" alt="<?=$fetched_profile['name']?>">
                     </div>
-                    <h2><?=$fetched_profile['name']?></h2>
+                    <h2 class="profile_name_header"><?=$fetched_profile['name']?></h2>
                     <p class="description_text"><?=$fetched_profile['description']?></p>
                 </div>
 
+                
+
+            </div>
+
+            <div class="creators_work_container">
+
+                <h2>Works</h2>
+
                 <div class="creators_work_feed_container">
 
-                    <?php include '../includes/creators_work_feed_card.php' ?>
-                
-                
+                        <?php include '../includes/creators_work_feed_card.php' ?>
+                    
+                    
                 </div>
-
             </div>
 
         </main>

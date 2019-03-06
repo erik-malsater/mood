@@ -9,13 +9,10 @@ $post = new Post($connection);
 $fetched_posts = $post->fetchCreatorsWork($_GET['profile']);
 foreach($fetched_posts as $single_post){
     ?>
-        <div class="post_card">
-            <div class="art_frame">
+            <div class="work_feed_art_frame">
                 <a href="work.php?post=<?=$single_post['id']?>"><img src="<?=$single_post['image']?>" 
                 alt="<?=$single_post['name']?>"></a>
             </div>
-
-        </div>
     <?php
 }
 
