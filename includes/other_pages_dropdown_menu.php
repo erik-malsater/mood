@@ -4,7 +4,7 @@
 
         <div class="mobile_navbar_container">
 
-            <h1 class="dropdown_header">Mood</h1>
+            <a href="../index.php"><h1 class="dropdown_header">Mood</h1></a>
 
             <div id="hamburger_button">
                 <span></span>
