@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge, shrink-to-fit=no">
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="../css/style.css">
         <script src="http://code.jquery.com/jquery-latest.js"></script>
         <script type="text/javascript" src="scripts/functions.js"></script>
         <title>Mood - A Way To Share Art</title>
@@ -20,7 +20,7 @@
                 <input type="text" name="search" id="header_search_form_field" class="header_search_form_field" placeholder="Search for works and artists">
 
                 <button type="submit" id="header_search_form_button" class="header_search_form_button" form="header_search_form" value="submit">
-                    <img src="images/search_icon2.png" alt="">
+                    <img src="../images/search_icon2.png" alt="">
                 </button>
 
             </form>
@@ -31,7 +31,7 @@
 
             <?php
 
-                include 'includes/main_page_dropdown_menu.php';
+                include '../includes/main_page_dropdown_menu.php';
 
             ?>
 
@@ -40,13 +40,8 @@
 
         <main class="main_page_feed_container">
 
-        var_dump
+       <?php var_dump($_POST) ?>
 
-            <?php
-
-            include 'includes/post_card.php';
-
-            ?>
 
         </main>
         
