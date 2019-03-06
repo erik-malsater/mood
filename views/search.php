@@ -13,7 +13,7 @@
 
         <header id="main_page_header">
 
-            <h1>Mood</h1>
+            <a href="../index.php"><h1>Mood</h1></a>
 
             <form action="includes/search.php" id="header_search_form">
 
@@ -40,7 +40,15 @@
 
         <main class="main_page_feed_container">
 
-       <?php var_dump($_POST) ?>
+        <h2>Search reuslts for "<?= $_POST['search'] ?>"</h2>
+
+       <?php //var_dump($_POST);
+       
+       include '../includes/search_results.php';
+       
+       ?>
+
+
 
 
         </main>

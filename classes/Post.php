@@ -59,6 +59,26 @@ class Post{
             ]
         );
 
+        $fetched_posts = $statement->fetchAll(PDO::FETCH_ASSOC);
+
+        return $fetched_posts;
+    }
+
+    public function fetchWorkFromSearch($name){
+        $name = strtolower($name);
+        $statement = $this->pdo->prepare(
+            'SELECT works.*, creators.name AS creator_name
+            FROM works
+            INNER JOIN creators 
+            ON works.creator_id = creators.id
+            WHERE works.name = :name');
+
+        $statement->execute(
+            [
+                ':name' => $name
+            ]
+        );
+
         $fetched_post = $statement->fetchAll(PDO::FETCH_ASSOC);
 
         return $fetched_post;
