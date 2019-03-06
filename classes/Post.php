@@ -47,5 +47,22 @@ class Post{
         return $fetched_post;
     }
 
+    public function fetchCreatorsWork($id){
+        $statement = $this->pdo->prepare(
+            'SELECT * 
+            FROM works 
+            WHERE creator_id = :id');
+
+        $statement->execute(
+            [
+                ':id' => $id
+            ]
+        );
+
+        $fetched_post = $statement->fetchAll(PDO::FETCH_ASSOC);
+
+        return $fetched_post;
+    }
+
 
 }

@@ -1,7 +1,7 @@
 <?php
 
-include '../classes/Database.php';
-include '../classes/Profile.php';
+include_once '../classes/Database.php';
+include_once '../classes/Profile.php';
 
 $db_connect = new Database();
 $connection = $db_connect->connect();

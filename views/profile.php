@@ -37,6 +37,13 @@
                     <p class="description_text"><?=$fetched_profile['description']?></p>
                 </div>
 
+                <div class="creators_work_feed_container">
+
+                    <?php include '../includes/creators_work_feed_card.php' ?>
+                
+                
+                </div>
+
             </div>
 
         </main>
