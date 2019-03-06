@@ -37,7 +37,7 @@
                     </div>
                     <h2><?=$fetched_post['name']?></h2>
                     <p>By: <a href="profile.php?profile=<?=$fetched_post['creator_id']?>"><?=$fetched_post['creator_name']?></a></p>
-                    <p class="description_text"><?=$fetched_post['description']?></p>
+                    <p class="description_text work_description"><?=$fetched_post['description']?></p>
                 </div>
 
             </div>
