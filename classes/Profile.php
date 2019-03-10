@@ -23,4 +23,25 @@ class Profile{
 
     }
 
+    public function fetchPorfilesFromSearch($name){
+
+        $name = strtolower($name);
+
+        $statement = $this->pdo->prepare(
+            'SELECT *
+            FROM creators
+            WHERE creators.name LIKE concat("%", :name, "%")');
+
+        $statement->execute(
+            [
+                ':name' => $name
+            ]
+        );
+
+        $fetched_profiles = $statement->fetchAll(PDO::FETCH_ASSOC);
+
+        return $fetched_profiles;
+
+    }
+
 }

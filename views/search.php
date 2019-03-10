@@ -47,7 +47,7 @@
 
         <main class="main_page_feed_container">
 
-        <h2>Search results for "<?php if(isset($validated_input)){ echo $validated_input;} ?>"</h2>
+        <h2 class="feed_header">Search results for "<?php if(isset($validated_input)){ echo $validated_input;} ?>"</h2>
 
        <?php
        

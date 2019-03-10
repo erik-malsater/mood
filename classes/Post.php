@@ -72,7 +72,7 @@ class Post{
             FROM works
             INNER JOIN creators 
             ON works.creator_id = creators.id
-            WHERE works.name = :name');
+            WHERE works.name LIKE concat("%", :name, "%")');
 
         $statement->execute(
             [

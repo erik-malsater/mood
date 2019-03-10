@@ -9,11 +9,13 @@ if (isset($validated_input)) {
     $connection = $db_connect->connect();
     $post = new Post($connection);
     $fetched_posts = $post->fetchWorkFromSearch($validated_input);
+    $profile = new Profile($connection);
+    $fetched_profiles = $profile->fetchPorfilesFromSearch($validated_input);
     //var_dump($fetched_posts);
 
     if (count($fetched_posts) > 0) {
         ?> 
-            <h2>Works:</h2>
+            <h2 class="feed_header">Works:</h2>
         <?php
     }
 
@@ -21,8 +23,9 @@ if (isset($validated_input)) {
         ?>
             <div class="post_card">
                 <div class="art_frame">
-                    <a href="views/work.php?post=<?=$single_post['id']?>"><img src="<?=$single_post['image']?>" 
-                    alt="<?=$single_post['name']?>"></a>
+                    <a href="views/work.php?post=<?=$single_post['id']?>">
+                    <img src="<?=$single_post['image']?>" alt="<?=$single_post['name']?>">
+                    </a>
                 </div>
 
                 <h2><?=$single_post['name']?></h2>
@@ -33,5 +36,29 @@ if (isset($validated_input)) {
             </div>
         <?php
     }
+
+    if (count($fetched_profiles) > 0) {
+        ?> 
+            <h2 class="feed_header">Creators:</h2>
+        <?php
+    }
+
+    foreach ($fetched_profiles as $single_profile) {
+        ?>
+            <div class="post_card">
+                <div class="art_frame">
+                    <a href="profile.php?profile=<?=$single_profile['id']?>">
+                        <img src="<?=$single_profile['profile_picture']?>" alt="<?=$single_profile['name']?>">
+                    </a>
+                </div>
+
+                <a href="profile.php?profile=<?=$single_profile['id']?>">
+                    <h2><?=$single_profile['name']?></h2>
+                </a>
+
+            </div>
+        <?php
+    }
+
 }
     ?>
