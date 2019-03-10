@@ -37,7 +37,8 @@
 
     .description_text{
         text-align: left;
-        width: 20rem;
+        width: 90vw;
+        max-width: 30rem;
         margin: 0 auto;
     }
 
@@ -72,18 +73,20 @@
 
             //padding-top: 0.6vw;
             //padding: 0.25rem;
-            margin-bottom: 1rem;
+            margin-bottom: 2vw;
             box-sizing: border-box;
             text-align: center;
         
-        width: 25vw;
-        height: 25vw;
-        margin-left: 2.5vw;
-        margin-right: 2.5vw;
+        width: 28vw;
+        height: 28vw;
+        // margin-left: 2.5vw;
+        // margin-right: 2.5vw;
+        margin-left: 1vw;
+        margin-right: 1vw;
 
         a{
-            max-height: 24vw;
-            max-width: 24vw;
+            max-height: 26vw;
+            max-width: 26vw;
         }
         
         img{
@@ -93,8 +96,8 @@
                 border: 0;
                 margin: 0;
 
-            max-height: 24vw;
-            max-width: 24vw;
+            max-height: 26vw;
+            max-width: 26vw;
         }
     }
 

@@ -27,13 +27,13 @@
                 </button>
 
                 <h2>About us</h2>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi quidem ex aut quasi laudantium, eum consequatur harum non. Architecto explicabo vero culpa officia tempore molestiae illo odio cumque ad nulla?</p>
+                <p class="description_text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi quidem ex aut quasi laudantium, eum consequatur harum non. Architecto explicabo vero culpa officia tempore molestiae illo odio cumque ad nulla?</p>
 
                 <h2>How does it work</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, natus eius iure aliquid enim sapiente itaque incidunt inventore, tenetur modi minima aliquam id cumque ullam nihil, doloribus explicabo eveniet nam?</p>
+                <p class="description_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, natus eius iure aliquid enim sapiente itaque incidunt inventore, tenetur modi minima aliquam id cumque ullam nihil, doloribus explicabo eveniet nam?</p>
             
                 <h2>Career</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quo veniam nam obcaecati fugiat ullam quae! Saepe, quas ratione explicabo sequi consectetur assumenda dicta impedit? Enim atque error debitis numquam!</p>
+                <p class="description_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quo veniam nam obcaecati fugiat ullam quae! Saepe, quas ratione explicabo sequi consectetur assumenda dicta impedit? Enim atque error debitis numquam!</p>
             </div>
 
         </main>
