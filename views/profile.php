@@ -29,7 +29,7 @@
                     <img src="../images/go_back_icon3.png" alt="">
                 </button>
 
-                <div class="post_card">
+                <div class="post_card" id="solo_card">
                     <div class="art_frame">
                         <img src="<?=$fetched_profile['profile_picture']?>" alt="<?=$fetched_profile['name']?>">
                     </div>

@@ -5,8 +5,10 @@
     margin: 0 auto;
     padding-top: 4.5rem;
     //padding: 4.5rem 1.5rem 0 1.5rem;
+    overflow: auto;
     box-sizing: border-box;
     //flex-wrap: wrap;
+
 
     #go_back_button{
         width: 4rem;
@@ -25,6 +27,10 @@
             width: 1.5rem;
             height: auto;
         }
+    }
+
+    #solo_card{
+        margin: 0 auto 2rem auto;
     }
 
     .art_frame{
@@ -51,13 +57,14 @@
 .creators_work_container{
 
     margin-top: 2.2rem;
+    margin: 2.2rem auto 0 auto;
 
     h2{
         font-size: 1.25rem;
     }
 
     .creators_work_feed_container{
-        width: 90vw;
+        width: 96vw;
         margin: 2rem auto 0 auto;
         display: flex;
         flex-wrap: wrap;
@@ -66,27 +73,27 @@
     }
 
     .work_feed_art_frame{
-            background-color: $art_card_color;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+        background-color: $art_card_color;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
-            //padding-top: 0.6vw;
-            //padding: 0.25rem;
-            margin-bottom: 2vw;
-            box-sizing: border-box;
-            text-align: center;
+        //padding-top: 0.6vw;
+        //padding: 0.25rem;
+        margin-bottom: 2vw;
+        box-sizing: border-box;
+        text-align: center;
         
-        width: 28vw;
-        height: 28vw;
+        width: 30vw;
+        height: 30vw;
         // margin-left: 2.5vw;
         // margin-right: 2.5vw;
         margin-left: 1vw;
         margin-right: 1vw;
 
         a{
-            max-height: 26vw;
-            max-width: 26vw;
+            max-height: 28vw;
+            max-width: 28vw;
         }
         
         img{
@@ -96,8 +103,8 @@
                 border: 0;
                 margin: 0;
 
-            max-height: 26vw;
-            max-width: 26vw;
+            max-height: 28vw;
+            max-width: 28vw;
         }
     }
 
