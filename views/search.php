@@ -1,3 +1,8 @@
+<?php
+    include_once '../classes/User.php';
+    $validated_input = User::validateInput($_POST['search']);
+?>
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -40,9 +45,9 @@
 
         <main class="main_page_feed_container">
 
-        <h2>Search reuslts for "<?= $_POST['search'] ?>"</h2>
+        <h2>Search results for "<?= $validated_input ?>"</h2>
 
-       <?php //var_dump($_POST);
+       <?php
        
        include '../includes/search_results.php';
        

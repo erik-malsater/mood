@@ -7,7 +7,7 @@ include_once '../classes/Profile.php';
 $db_connect = new Database();
 $connection = $db_connect->connect();
 $post = new Post($connection);
-$fetched_posts = $post->fetchWorkFromSearch($_POST['search']);
+$fetched_posts = $post->fetchWorkFromSearch($validated_input);
 //var_dump($fetched_posts);
 
 if(count($fetched_posts) > 0){

@@ -66,6 +66,7 @@ class Post{
 
     public function fetchWorkFromSearch($name){
         $name = strtolower($name);
+
         $statement = $this->pdo->prepare(
             'SELECT works.*, creators.name AS creator_name
             FROM works
