@@ -14,6 +14,8 @@ class Database{
         $this->username,
         $this->password);
 
+        $this->pdo->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
+
         return $this->pdo;
         
     }
