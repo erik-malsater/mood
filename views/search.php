@@ -1,6 +1,8 @@
 <?php
     include_once '../classes/User.php';
-    $validated_input = User::validateInput($_POST['search']);
+    if (isset($_POST['search'])) {
+        $validated_input = User::validateInput($_POST['search']);
+    }
 ?>
 
 <!DOCTYPE html>
@@ -11,7 +13,7 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge, shrink-to-fit=no">
         <link rel="stylesheet" href="../css/style.css">
         <script src="http://code.jquery.com/jquery-latest.js"></script>
-        <script type="text/javascript" src="scripts/functions.js"></script>
+        <script type="text/javascript" src="../scripts/functions.js"></script>
         <title>Mood - A Way To Share Art</title>
     </head>
     <body>
@@ -30,7 +32,7 @@
 
             </form>
 
-            <button id="header_link_to_about_us" onclick="location.href='views/about_us.php'" 
+            <button id="header_link_to_about_us" onclick="location.href='about_us.php'" 
             type="button">What is Mood?</button>
 
 
@@ -45,7 +47,7 @@
 
         <main class="main_page_feed_container">
 
-        <h2>Search results for "<?= $validated_input ?>"</h2>
+        <h2>Search results for "<?php if(isset($validated_input)){ echo $validated_input;} ?>"</h2>
 
        <?php
        

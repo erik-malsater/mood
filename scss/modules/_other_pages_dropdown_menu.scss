@@ -10,7 +10,6 @@
         color: white;
     }
 
-
     input[type=submit]{
         //margin-top: 2rem;
         //height: 2.15rem;
@@ -96,6 +95,10 @@
         
         #dropdown_search_form{
             margin-top: 0;
+        }
+
+        #dropdown_search_form_field{
+            border: 1px solid $inactive_form_field_color;
         }
         
         #dropdown_search_form_button{

@@ -7,6 +7,10 @@
     display: none;
     //background-color: white;
     color: white;
+
+    #dropdown_search_form_field{
+        border: 1px solid $inactive_form_field_color;
+    }
     
 }
 
