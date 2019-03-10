@@ -28,7 +28,6 @@
             <button id="header_link_to_about_us" onclick="location.href='views/about_us.php'" 
             type="button">What is Mood?</button>
 
-
             <?php
 
                 include 'includes/main_page_dropdown_menu.php';

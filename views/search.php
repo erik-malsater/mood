@@ -46,6 +46,14 @@
         </header>
 
         <main class="main_page_feed_container">
+        
+        <div class="go_back_button_container">
+
+            <button id="go_back_button" type="button" onclick="window.location.href='javascript:history.back()'">
+                <img src="../images/go_back_icon3.png" alt="">
+            </button>
+
+        </div>
 
         <h2 class="feed_header">Search results for "<?php if(isset($validated_input)){ echo $validated_input;} ?>"</h2>
 

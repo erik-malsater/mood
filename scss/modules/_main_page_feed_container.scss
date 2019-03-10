@@ -9,4 +9,29 @@
         width: 100vw;
         margin-bottom: 1rem;
     }
+
+    .go_back_button_container{
+        width: 20rem;
+        margin: 0 auto;
+    }
+
+    #go_back_button{
+        width: 4rem;
+        height: 3rem;
+        padding: 0;
+        border: none;
+        background-color: white;
+        margin-left: -1.2rem;
+        //background-color: white;
+        //border: none;
+        //border: 0.01rem solid #CBCBCB;
+        margin-bottom: 0.5rem;
+
+        img{
+            margin-top: 0.3rem;
+            width: 1.5rem;
+            height: auto;
+        }
+    }
+
 }
