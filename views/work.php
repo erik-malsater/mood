@@ -31,13 +31,17 @@
                     <img src="../images/go_back_icon3.png" alt="">
                 </button>
 
-                <div class="post_card">
-                    <div class="art_frame">
+                <div class="post_card" id="work_card">
+                    
+                    <div class="art_frame" id="work_page_art_frame">
                         <img src="<?=$fetched_post['image']?>" alt="<?=$fetched_post['name']?>">
                     </div>
-                    <h2><?=$fetched_post['name']?></h2>
-                    <p>By: <a href="profile.php?profile=<?=$fetched_post['creator_id']?>"><?=$fetched_post['creator_name']?></a></p>
-                    <p class="description_text work_description"><?=$fetched_post['description']?></p>
+
+                    <div class="tablet_flex_box">
+                        <h2><?=$fetched_post['name']?></h2>
+                        <p>By: <a href="profile.php?profile=<?=$fetched_post['creator_id']?>"><?=$fetched_post['creator_name']?></a></p>
+                        <p class="description_text work_description"><?=$fetched_post['description']?></p>
+                    </div>
                 </div>
 
             </div>
