@@ -105,5 +105,10 @@
             background-color: white;
         }
     }
+
+    @include tablet{
+        display: none;
+    }
 }
+
 

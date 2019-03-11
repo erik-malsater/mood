@@ -1,3 +1,7 @@
+#tablet_profile_and_post_page_header{
+    display: none;
+}
+
 .profile_and_post_container{
 
     //width: 20rem;
@@ -110,8 +114,16 @@
 
 @include tablet{
 
+    #tablet_profile_and_post_page_header{
+        display: flex;
+    }
+
     .profile_and_post_container{
         width: 100vw;
+        //margin-top: 10rem;
+        padding-top: 8rem;
+        box-sizing: border-box;
+        overflow: auto;
     }
 
     #work_card{
@@ -119,7 +131,7 @@
         justify-content: space-evenly;
         margin-left: 0;
         margin-right: 0;
-        margin-top: 3rem;
+        margin-top: 2rem;
     }
 
     #work_page_art_frame{

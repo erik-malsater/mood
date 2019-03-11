@@ -9,6 +9,27 @@
         <script type="text/javascript" src="../scripts/functions.js"></script>
         <title>Mood - A Way To Share Art</title>
     </head>
+
+    <header id="tablet_profile_and_post_page_header">
+
+        <h1>Mood</h1>
+
+        <form action="views/search.php" method="post" id="header_search_form">
+
+            <input type="text" name="search" id="header_search_form_field" class="header_search_form_field" placeholder="Search for works and artists">
+
+            <button type="submit" id="header_search_form_button" class="header_search_form_button" form="header_search_form" value="submit">
+                <img src="../images/search_icon2.png" alt="">
+            </button>
+
+        </form>
+
+        <button id="header_link_to_about_us" onclick="location.href='views/about_us.php'" 
+        type="button">What is Mood?</button>
+
+    </header>
+
+
     <body>
 
         <?php
