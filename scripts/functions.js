@@ -75,9 +75,16 @@
             
         });
 
+        
+        $(window).resize(function(){
+            if($(window).width() > 768){
+                $('#main_page_dropdown_menu').hide();
+            }
+        });
+        
 
-        $(window).scroll(function(){                          
-            if ($(this).scrollTop() > $('#main_page_header').height()) {
+        $(window).scroll(function(){                   
+            if ($(this).scrollTop() > $('#main_page_header').height() && $(window).width() < 768) {
                 $('#main_page_dropdown_menu').fadeIn(200);
                 $("#mobile_navbar_container").css("display", "flex")
             } else {
