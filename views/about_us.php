@@ -24,7 +24,7 @@
 
         </form>
 
-        <button id="header_link_to_about_us" onclick="location.href='views/about_us.php'" 
+        <button id="header_link_to_about_us" onclick="location.href='about_us.php'" 
         type="button">What is Mood?</button>
 
     </header>
@@ -43,9 +43,17 @@
 
             <div class="profile_and_post_container">
 
-                <button id="go_back_button" type="button" onclick="window.location.href='javascript:history.back()'">
-                    <img src="../images/go_back_icon3.png" alt="">
-                </button>
+                <div class="go_back_button_tablet_flex_parent">
+
+                    <div class="go_back_button_tablet_flex_box">
+                        <button id="go_back_button" type="button" onclick="window.location.href='javascript:history.back()'">
+                            <img src="../images/go_back_icon3.png" alt="">
+                        </button>
+                    </div>
+
+                    <div class="go_back_button_tablet_flex_sibling"></div>
+
+                </div>
 
                 <h2>About us</h2>
                 <p class="description_text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi quidem ex aut quasi laudantium, eum consequatur harum non. Architecto explicabo vero culpa officia tempore molestiae illo odio cumque ad nulla?</p>

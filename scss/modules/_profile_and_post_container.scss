@@ -21,9 +21,7 @@
     //     display: none;
     // }
 
-    .go_back_button_tablet_flex_parent{
-        width: 100vw;
-    }
+    
 
 
     #go_back_button{
@@ -61,6 +59,7 @@
 
     .profile_name_header{
         color: $complementary_color;
+        margin-bottom: 1rem;
     }
 
     .description_text{

@@ -36,7 +36,7 @@
 
             </form>
 
-            <button id="header_link_to_about_us" onclick="location.href='views/about_us.php'" 
+            <button id="header_link_to_about_us" onclick="location.href='about_us.php'" 
             type="button">What is Mood?</button>
 
         </header>
