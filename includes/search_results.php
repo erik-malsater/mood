@@ -23,7 +23,7 @@ if (isset($validated_input)) {
         ?>
             <div class="post_card">
                 <div class="art_frame">
-                    <a href="views/work.php?post=<?=$single_post['id']?>">
+                    <a href="work.php?post=<?=$single_post['id']?>">
                     <img src="<?=$single_post['image']?>" alt="<?=$single_post['name']?>">
                     </a>
                 </div>
@@ -31,7 +31,7 @@ if (isset($validated_input)) {
                 <h2><?=$single_post['name']?></h2>
 
                 <p>By: <a class="creator_link" 
-                href="views/profile.php?profile=<?=$single_post['creator_id']?>"><?=$single_post['creator_name']?></a></p>
+                href="profile.php?profile=<?=$single_post['creator_id']?>"><?=$single_post['creator_name']?></a></p>
 
             </div>
         <?php
@@ -46,11 +46,11 @@ if (isset($validated_input)) {
     foreach ($fetched_profiles as $single_profile) {
         ?>
             <div class="post_card">
-                <div class="art_frame">
-                    <a href="profile.php?profile=<?=$single_profile['id']?>">
+                <a href="profile.php?profile=<?=$single_profile['id']?>">
+                    <div class="art_frame">
                         <img src="<?=$single_profile['profile_picture']?>" alt="<?=$single_profile['name']?>">
-                    </a>
-                </div>
+                    </div>
+                </a>
 
                 <a href="profile.php?profile=<?=$single_profile['id']?>">
                     <h2><?=$single_profile['name']?></h2>

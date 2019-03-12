@@ -13,6 +13,13 @@
     box-sizing: border-box;
     //flex-wrap: wrap;
 
+    .go_back_button_tablet_flex_parent, .go_back_button_tablet_flex_box{
+        visibility: hidden;
+    }
+
+    .go_back_button_tablet_flex_sibling{
+        display: none;
+    }
 
     #go_back_button{
         width: 4rem;
@@ -20,6 +27,7 @@
         padding: 0;
         border: none;
         background-color: white;
+        visibility: visible;
         //margin-left: -1.2rem;
         //background-color: white;
         //border: none;
@@ -31,6 +39,11 @@
             width: 1.5rem;
             height: auto;
         }
+    }
+
+    #work_card{
+        margin-left: 0;
+        margin-right: 0;
     }
 
     #solo_card{
@@ -124,6 +137,25 @@
         padding-top: 8rem;
         box-sizing: border-box;
         overflow: auto;
+
+        .go_back_button_tablet_flex_parent{
+            visibility: visible;
+            display: flex;
+            justify-content: space-evenly;
+            margin: 0 auto;
+        }
+
+        .go_back_button_tablet_flex_box{
+            visibility: visible;
+            width: 25rem;
+            margin-right: 4rem;
+        }
+    
+        .go_back_button_tablet_flex_sibling{
+            display: block;
+            width: 17rem;
+        }
+
     }
 
     #work_card{

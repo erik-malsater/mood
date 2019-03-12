@@ -16,7 +16,7 @@
 
         <form action="views/search.php" method="post" id="header_search_form">
 
-            <input type="text" name="search" id="header_search_form_field" class="header_search_form_field" placeholder="Search for works and artists">
+            <input type="text" name="search" id="header_search_form_field" class="header_search_form_field" placeholder="Search for works and creators">
 
             <button type="submit" id="header_search_form_button" class="header_search_form_button" form="header_search_form" value="submit">
                 <img src="../images/search_icon2.png" alt="">
@@ -46,9 +46,17 @@
         <main class="profile_and_post_container">
 
 
-            <button id="go_back_button" type="button" onclick="window.location.href='javascript:history.back()'">
-                <img src="../images/go_back_icon3.png" alt="">
-            </button>
+            <div class="go_back_button_tablet_flex_parent">
+
+                <div class="go_back_button_tablet_flex_box">
+                    <button id="go_back_button" type="button" onclick="window.location.href='javascript:history.back()'">
+                        <img src="../images/go_back_icon3.png" alt="">
+                    </button>
+                </div>
+
+                <div class="go_back_button_tablet_flex_sibling"></div>
+
+            </div>
 
             <div class="post_card" id="work_card">
                 
