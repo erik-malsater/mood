@@ -24,16 +24,7 @@
         $('#dropdown_search_form_field').focus(function(){
             if(!$(this).hasClass('header_search_form_field_filled')){
                 $(this).toggleClass('header_search_form_field_filled');
-                var x = $('#dropdown_search_form_button_image').attr('src');
-                if(x === 'images/search_icon_black.png'){
-                    $('#dropdown_search_form_button_image').attr('src', 'images/search_icon_orange.png');
-                } else if(x === '../images/search_icon_black.png'){
-                    $('#dropdown_search_form_button_image').attr('src', '../images/search_icon_orange.png');
-                } else if(x === 'images/search_icon_orange.png'){
-                    $('#dropdown_search_form_button_image').attr('src', 'images/search_icon_black.png');
-                } else if(x === '../images/search_icon_orange.png'){
-                    $('#dropdown_search_form_button_image').attr('src', '../images/search_icon_black.png');
-                }
+                toggleDropdownSearchFormColorAndImage();
             }
         });
         
@@ -41,16 +32,7 @@
         {
             if( $(this).val().length === 0 ) {
                 $(this).toggleClass('header_search_form_field_filled');
-                var x = $('#dropdown_search_form_button_image').attr('src');
-                if(x === 'images/search_icon_black.png'){
-                    $('#dropdown_search_form_button_image').attr('src', 'images/search_icon_orange.png');
-                } else if(x === '../images/search_icon_black.png'){
-                    $('#dropdown_search_form_button_image').attr('src', '../images/search_icon_orange.png');
-                } else if(x === 'images/search_icon_orange.png'){
-                    $('#dropdown_search_form_button_image').attr('src', 'images/search_icon_black.png');
-                } else if(x === '../images/search_icon_orange.png'){
-                    $('#dropdown_search_form_button_image').attr('src', '../images/search_icon_black.png');
-                }
+                toggleDropdownSearchFormColorAndImage();
             }
         });
 
@@ -59,23 +41,28 @@
             if($('#dropdown_search_form_field').val() !== ''){
                 $('#dropdown_search_form_field').val('');
                 $('#dropdown_search_form_field').toggleClass('header_search_form_field_filled');
-                var x = $('#dropdown_search_form_button_image').attr('src');
-                if(x === 'images/search_icon_black.png'){
-                    $('#dropdown_search_form_button_image').attr('src', 'images/search_icon_orange.png');
-                } else if(x === '../images/search_icon_black.png'){
-                    $('#dropdown_search_form_button_image').attr('src', '../images/search_icon_orange.png');
-                } else if(x === 'images/search_icon_orange.png'){
-                    $('#dropdown_search_form_button_image').attr('src', 'images/search_icon_black.png');
-                } else if(x === '../images/search_icon_orange.png'){
-                    $('#dropdown_search_form_button_image').attr('src', '../images/search_icon_black.png');
-                }
+                toggleDropdownSearchFormColorAndImage();
             }
             $(this).toggleClass('open');
             $('#mobile_dropdown_item_container').slideToggle(200);
             
         });
 
-        
+
+        function toggleDropdownSearchFormColorAndImage(){
+            var x = $('#dropdown_search_form_button_image').attr('src');
+            if(x === 'images/search_icon_black.png'){
+                $('#dropdown_search_form_button_image').attr('src', 'images/search_icon_orange.png');
+            } else if(x === '../images/search_icon_black.png'){
+                $('#dropdown_search_form_button_image').attr('src', '../images/search_icon_orange.png');
+            } else if(x === 'images/search_icon_orange.png'){
+                $('#dropdown_search_form_button_image').attr('src', 'images/search_icon_black.png');
+            } else if(x === '../images/search_icon_orange.png'){
+                $('#dropdown_search_form_button_image').attr('src', '../images/search_icon_black.png');
+            }
+        }
+
+
         $(window).resize(function(){
             if($(window).width() > 768){
                 $('#main_page_dropdown_menu').hide();
