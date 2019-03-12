@@ -10,8 +10,6 @@
             <span></span>
         </div>
 
-        <!--<button id="hamburger_button">III</button>-->
-
     </div>
 
     <div id="mobile_dropdown_item_container">

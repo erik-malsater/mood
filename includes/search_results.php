@@ -11,7 +11,6 @@ if (isset($validated_input)) {
     $fetched_posts = $post->fetchWorkFromSearch($validated_input);
     $profile = new Profile($connection);
     $fetched_profiles = $profile->fetchPorfilesFromSearch($validated_input);
-    //var_dump($fetched_posts);
 
     if (count($fetched_posts) > 0) {
         ?> 

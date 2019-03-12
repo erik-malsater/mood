@@ -4,25 +4,10 @@
 
 .profile_and_post_container{
 
-    //width: 20rem;
-
     margin: 0 auto;
     padding-top: 4.5rem;
-    //padding: 4.5rem 1.5rem 0 1.5rem;
     overflow: auto;
     box-sizing: border-box;
-    //flex-wrap: wrap;
-
-    // .go_back_button_tablet_flex_parent, .go_back_button_tablet_flex_box{
-    //     visibility: hidden;
-    // }
-
-    // .go_back_button_tablet_flex_sibling{
-    //     display: none;
-    // }
-
-    
-
 
     #go_back_button{
         width: 4rem;
@@ -30,11 +15,6 @@
         padding: 0;
         border: none;
         background-color: white;
-        //visibility: visible;
-        //margin-left: -1.2rem;
-        //background-color: white;
-        //border: none;
-        //border: 0.01rem solid #CBCBCB;
         margin-bottom: 0.5rem;
 
         img{
@@ -88,7 +68,6 @@
         margin: 2rem auto 0 auto;
         display: flex;
         flex-wrap: wrap;
-        //justify-content: space-between;
         align-content: flex-start;
     }
 
@@ -97,17 +76,11 @@
         display: flex;
         justify-content: center;
         align-items: center;
-
-        //padding-top: 0.6vw;
-        //padding: 0.25rem;
         margin-bottom: 2vw;
         box-sizing: border-box;
         text-align: center;
-        
         width: 30vw;
         height: 30vw;
-        // margin-left: 2.5vw;
-        // margin-right: 2.5vw;
         margin-left: 1vw;
         margin-right: 1vw;
 
@@ -118,10 +91,8 @@
         
         img{
             object-fit: contain;
-                //width: auto;
-                //height: 100%;
-                border: 0;
-                margin: 0;
+            border: 0;
+            margin: 0;
 
             max-height: 28vw;
             max-width: 28vw;
@@ -137,13 +108,11 @@
 
     .profile_and_post_container{
         width: 100vw;
-        //margin-top: 10rem;
         padding-top: 8rem;
         box-sizing: border-box;
         overflow: auto;
 
         .go_back_button_tablet_flex_parent{
-            //visibility: visible;
             display: flex;
             justify-content: space-evenly;
             margin: 0 auto;
@@ -154,7 +123,6 @@
         }
 
         .go_back_button_tablet_flex_box{
-            //visibility: visible;
             width: 25rem;
             margin-right: 4rem;
         }
@@ -186,7 +154,6 @@
     }
 
     .tablet_flex_box{
-        //width: 17rem;
         width: 40%;
         
         .description_text{
@@ -287,8 +254,6 @@
         #work_page_art_frame{
             width: 40vw;
             height: 40vw;
-            //max-width: rem;
-            //max-height: 32rem;
 
             img{
                 max-width: 95%;

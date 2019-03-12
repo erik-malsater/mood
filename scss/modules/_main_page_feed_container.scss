@@ -4,7 +4,6 @@
     width: 100vw;
     padding-top: 2rem;
     flex-wrap: wrap;
-    //justify-content: space-around;
     padding: 2rem 0 0 0;
     overflow: auto;
     box-sizing: border-box;
@@ -18,26 +17,6 @@
         margin-top: 1rem;
     }
 
-    ///////////
-    //////////
-    /*
-    .go_back_button_container{
-        //width: 20rem;
-        width: 90vw;
-        margin: 0 auto;
-    }
-*/
-////////
-////////
-/*
-    .go_back_button_tablet_flex_parent, .go_back_button_tablet_flex_box{
-        visibility: hidden;
-    }
-
-    .go_back_button_tablet_flex_sibling{
-        display: none;
-    }
-*/
     .go_back_button_tablet_flex_parent{
         width: 100vw;
     }
@@ -48,11 +27,6 @@
         padding: 0;
         border: none;
         background-color: white;
-        //visibility: visible;
-        //margin-left: -1.2rem;
-        //background-color: white;
-        //border: none;
-        //border: 0.01rem solid #CBCBCB;
         margin-bottom: 0.5rem;
 
         img{
@@ -63,8 +37,6 @@
     }
 
     @include tablet{
-        //padding: 10rem 5vw 0 5vw;
-        //justify-content: space-around;
         padding: 10rem 0 0 0;
         justify-content: space-evenly;
 
