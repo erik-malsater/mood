@@ -17,14 +17,14 @@
         ?>
 
         <?php
-
-        include '../includes/other_pages_dropdown_menu.php';
-
+            include '../includes/other_pages_dropdown_menu.php';
         ?>
 
         <header id="tablet_profile_and_post_page_header">
 
-            <h1>Mood</h1>
+            <a href="../index.php">
+                <h1>Mood</h1>
+            </a>
 
             <form action="search.php" method="post" id="header_search_form">
 
