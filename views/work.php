@@ -12,7 +12,7 @@
 
     <header id="tablet_profile_and_post_page_header">
 
-        <a href="../index.php">
+        <a href="../index.php" aria-label="Go to start page">
             <h1>Mood</h1>
         </a>
 
@@ -20,14 +20,14 @@
 
             <input type="text" name="search" id="header_search_form_field" class="header_search_form_field" placeholder="Search for works and creators">
 
-            <button type="submit" id="header_search_form_button" class="header_search_form_button" form="header_search_form" value="submit">
-                <img src="../images/search_icon2.png" alt="">
+            <button type="submit" id="header_search_form_button" class="header_search_form_button" form="header_search_form" value="submit" aria-label="Search">
+                <img src="../images/search_icon2.png" alt="Search icon">
             </button>
 
         </form>
 
         <button id="header_link_to_about_us" onclick="location.href='about_us.php'" 
-        type="button">What is Mood?</button>
+        type="button" aria-label="Go to about us page">What is Mood?</button>
 
     </header>
 
@@ -51,8 +51,8 @@
             <div class="go_back_button_tablet_flex_parent">
 
                 <div class="go_back_button_tablet_flex_box">
-                    <button id="go_back_button" type="button" onclick="window.location.href='javascript:history.back()'">
-                        <img src="../images/go_back_icon3.png" alt="">
+                    <button id="go_back_button" type="button" onclick="window.location.href='javascript:history.back()'" aria-label="Go back to previous page">
+                        <img src="../images/go_back_icon3.png" alt="Go back button icon">
                     </button>
                 </div>
 
@@ -68,7 +68,7 @@
 
                 <div class="tablet_flex_box">
                     <h2><?=$fetched_post['name']?></h2>
-                    <p>By: <a href="profile.php?profile=<?=$fetched_post['creator_id']?>"><?=$fetched_post['creator_name']?></a></p>
+                    <p>By: <a href="profile.php?profile=<?=$fetched_post['creator_id']?>" aria-label="Go to page for this creator"><?=$fetched_post['creator_name']?></a></p>
                     <p class="description_text work_description"><?=$fetched_post['description']?></p>
                 </div>
             </div>

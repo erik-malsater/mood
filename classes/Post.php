@@ -2,7 +2,6 @@
 class Post{
 
     private $pdo;
-    //private $table;
     
     public function __construct($connect){
         $this->pdo = $connect;
@@ -27,7 +26,7 @@ class Post{
     }
 
     public function fetchSinglePost($id){
-        //$statement = $this->pdo->prepare('SELECT * FROM works WHERE id = :id');
+
         $statement = $this->pdo->prepare(
             'SELECT works.*, creators.name 
             AS creator_name 

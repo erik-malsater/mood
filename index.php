@@ -19,14 +19,14 @@
 
                 <input type="text" name="search" id="header_search_form_field" class="header_search_form_field" placeholder="Search for works and creators">
 
-                <button type="submit" id="header_search_form_button" class="header_search_form_button" form="header_search_form" value="submit">
-                    <img src="images/search_icon2.png" alt="">
+                <button type="submit" id="header_search_form_button" class="header_search_form_button" form="header_search_form" value="submit" aria-label="Search">
+                    <img src="images/search_icon2.png" alt="Search icon">
                 </button>
 
             </form>
 
             <button id="header_link_to_about_us" onclick="location.href='views/about_us.php'" 
-            type="button">What is Mood?</button>
+            type="button" aria-label="Go to about us page">What is Mood?</button>
 
             <?php
 
