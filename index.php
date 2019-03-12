@@ -6,7 +6,7 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge, shrink-to-fit=no">
         <link rel="stylesheet" href="css/style.css">
         <script src="http://code.jquery.com/jquery-latest.js"></script>
-        <script type="text/javascript" src="scripts/functions.js"></script>
+        <script type="text/javascript" src="js/functions.js"></script>
         <title>Mood - A Way To Share Art</title>
     </head>
     <body>

@@ -1,10 +1,3 @@
-<?php
-    include_once '../classes/User.php';
-    if (isset($_POST['search'])) {
-        $validated_input = User::validateInput($_POST['search']);
-    }
-?>
-
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -13,10 +6,17 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge, shrink-to-fit=no">
         <link rel="stylesheet" href="../css/style.css">
         <script src="http://code.jquery.com/jquery-latest.js"></script>
-        <script type="text/javascript" src="../scripts/functions.js"></script>
+        <script type="text/javascript" src="../js/functions.js"></script>
         <title>Mood - A Way To Share Art</title>
     </head>
     <body>
+
+        <?php
+            include_once '../classes/User.php';
+            if (isset($_POST['search'])) {
+                $validated_input = User::validateInput($_POST['search']);
+            }
+        ?>
 
         <header id="main_page_header">
 
