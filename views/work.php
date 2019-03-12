@@ -14,7 +14,7 @@
 
         <h1>Mood</h1>
 
-        <form action="views/search.php" method="post" id="header_search_form">
+        <form action="search.php" method="post" id="header_search_form">
 
             <input type="text" name="search" id="header_search_form_field" class="header_search_form_field" placeholder="Search for works and creators">
 

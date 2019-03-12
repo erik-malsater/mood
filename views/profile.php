@@ -26,7 +26,7 @@
 
             <h1>Mood</h1>
 
-            <form action="views/search.php" method="post" id="header_search_form">
+            <form action="search.php" method="post" id="header_search_form">
 
                 <input type="text" name="search" id="header_search_form_field" class="header_search_form_field" placeholder="Search for works and creators">
 
@@ -47,15 +47,15 @@
 
             <div class="go_back_button_tablet_flex_parent">
 
-<div class="go_back_button_tablet_flex_box">
-    <button id="go_back_button" type="button" onclick="window.location.href='javascript:history.back()'">
-        <img src="../images/go_back_icon3.png" alt="">
-    </button>
-</div>
+                <div class="go_back_button_tablet_flex_box">
+                    <button id="go_back_button" type="button" onclick="window.location.href='javascript:history.back()'">
+                        <img src="../images/go_back_icon3.png" alt="">
+                    </button>
+                </div>
 
-<div class="go_back_button_tablet_flex_sibling"></div>
+                <div class="go_back_button_tablet_flex_sibling"></div>
 
-</div>
+            </div>
 
                 <div class="post_card" id="solo_card">
                     <div class="art_frame">

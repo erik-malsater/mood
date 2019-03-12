@@ -18,7 +18,7 @@
 
             <div class="drop_down_single_item_box">
 
-                <form action="../views/search.php" method="post" id="dropdown_search_form">
+                <form action="search.php" method="post" id="dropdown_search_form">
                     <input type="search" name="search" class="header_search_form_field" id="dropdown_search_form_field" placeholder="Search for works and creators">
                     <button type="submit" class="header_search_form_button" id="dropdown_search_form_button" form="dropdown_search_form" value="submit">
                         <img src="../images/search_icon_black.png" alt="" id="dropdown_search_form_button_image">

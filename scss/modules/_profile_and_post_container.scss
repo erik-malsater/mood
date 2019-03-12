@@ -13,13 +13,18 @@
     box-sizing: border-box;
     //flex-wrap: wrap;
 
-    .go_back_button_tablet_flex_parent, .go_back_button_tablet_flex_box{
-        visibility: hidden;
+    // .go_back_button_tablet_flex_parent, .go_back_button_tablet_flex_box{
+    //     visibility: hidden;
+    // }
+
+    // .go_back_button_tablet_flex_sibling{
+    //     display: none;
+    // }
+
+    .go_back_button_tablet_flex_parent{
+        width: 100vw;
     }
 
-    .go_back_button_tablet_flex_sibling{
-        display: none;
-    }
 
     #go_back_button{
         width: 4rem;
@@ -27,7 +32,7 @@
         padding: 0;
         border: none;
         background-color: white;
-        visibility: visible;
+        //visibility: visible;
         //margin-left: -1.2rem;
         //background-color: white;
         //border: none;
@@ -139,14 +144,14 @@
         overflow: auto;
 
         .go_back_button_tablet_flex_parent{
-            visibility: visible;
+            //visibility: visible;
             display: flex;
             justify-content: space-evenly;
             margin: 0 auto;
         }
 
         .go_back_button_tablet_flex_box{
-            visibility: visible;
+            //visibility: visible;
             width: 25rem;
             margin-right: 4rem;
         }
