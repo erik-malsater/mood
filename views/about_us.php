@@ -12,7 +12,9 @@
 
     <header id="tablet_profile_and_post_page_header">
 
-        <h1>Mood</h1>
+        <a href="../index.php">
+            <h1>Mood</h1>
+        </a>
 
         <form action="views/search.php" method="post" id="header_search_form">
 

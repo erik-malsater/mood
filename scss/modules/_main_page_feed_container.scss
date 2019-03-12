@@ -110,3 +110,11 @@
         }
     }
 }
+
+@include desktop{
+    .main_page_feed_container{
+        .go_back_button_tablet_flex_parent{
+            display: none;
+        }
+    }
+}
