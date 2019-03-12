@@ -86,6 +86,10 @@
             margin: 0 auto;
         }
 
+        #go_back_button{
+            margin-left: 1rem;
+        }
+
         .go_back_button_tablet_flex_box{
             visibility: visible;
             width: 25rem;
@@ -94,7 +98,7 @@
 
         .go_back_button_tablet_flex_sibling{
             display: block;
-            width: 17rem;
+            width: 40%;
         }
     }
 

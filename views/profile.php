@@ -41,21 +41,21 @@
 
         </header>
 
-        <main>
+        <main id="profile_container">
 
             <div class="profile_and_post_container">
 
-            <div class="go_back_button_tablet_flex_parent">
+                <div class="go_back_button_tablet_flex_parent">
 
-                <div class="go_back_button_tablet_flex_box">
-                    <button id="go_back_button" type="button" onclick="window.location.href='javascript:history.back()'">
-                        <img src="../images/go_back_icon3.png" alt="">
-                    </button>
+                    <div class="go_back_button_tablet_flex_box">
+                        <button id="go_back_button" type="button" onclick="window.location.href='javascript:history.back()'">
+                            <img src="../images/go_back_icon3.png" alt="">
+                        </button>
+                    </div>
+
+                    <div class="go_back_button_tablet_flex_sibling"></div>
+
                 </div>
-
-                <div class="go_back_button_tablet_flex_sibling"></div>
-
-            </div>
 
                 <div class="post_card" id="solo_card">
                     <div class="art_frame">
@@ -64,8 +64,6 @@
                     <h2 class="profile_name_header"><?=$fetched_profile['name']?></h2>
                     <p class="description_text"><?=$fetched_profile['description']?></p>
                 </div>
-
-                
 
             </div>
 

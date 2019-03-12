@@ -149,6 +149,10 @@
             margin: 0 auto;
         }
 
+        #go_back_button{
+            margin-left: 1rem;
+        }
+
         .go_back_button_tablet_flex_box{
             //visibility: visible;
             width: 25rem;
@@ -157,7 +161,7 @@
     
         .go_back_button_tablet_flex_sibling{
             display: block;
-            width: 17rem;
+            width: 40%;
         }
 
     }
@@ -182,7 +186,8 @@
     }
 
     .tablet_flex_box{
-        width: 17rem;
+        //width: 17rem;
+        width: 40%;
         
         .description_text{
             width: initial;
@@ -192,4 +197,103 @@
             text-align: left;
         }
     }
+}
+
+@include desktop{
+
+    #profile_container{
+        display: flex;
+        justify-content: space-between;
+        padding-left: 5vw;
+        padding-right: 1vw;
+
+        .profile_and_post_container{
+            width: inherit;
+            margin-left: 0;
+            margin-right: 0;
+        }
+
+        #solo_card{
+            width: 28vw;
+            background-color: $art_card_color;
+            padding: 1rem;
+
+            .art_frame{
+                width: 24vw;
+                height: 24vw;
+
+                img{
+                    max-width: 23vw;
+                    max-height: 23vw;
+                }
+            }
+        }
+
+        .description_text{
+            width: initial;
+        }
+
+        .creators_work_container{
+            width: 64vw;
+            margin: 8rem 0 0 0;
+
+
+            .creators_work_feed_container{
+                width: inherit;
+            }
+
+
+
+            .work_feed_art_frame{
+               
+                width: 18vw;
+                height: 18vw;
+                margin-left: 1vw;
+                margin-right: 1vw;
+        
+                a{
+                    max-height: 16vw;
+                    max-width: 16vw;
+                }
+                
+                img{
+                    max-height: 16vw;
+                    max-width: 16vw;
+                }
+            }
+
+
+        }
+
+    }
+
+    .profile_and_post_container{
+
+        .go_back_button_tablet_flex_parent{
+            display: none;
+        }
+
+        #work_card{
+            justify-content: left;
+            padding-left: 10vw;
+            padding-right: 10vw;
+        }
+
+        #work_page_art_frame{
+            width: 40vw;
+            height: 40vw;
+            //max-width: rem;
+            //max-height: 32rem;
+
+            img{
+                max-width: 95%;
+                max-height: 95%;
+            }
+        }
+
+        .tablet_flex_box{
+            margin-left: 4rem;
+        }
+    }
+
 }
