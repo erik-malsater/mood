@@ -7,7 +7,8 @@
     margin: 0 auto;
     padding-top: 4.5rem;
     overflow: auto;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
 
     #go_back_button{
         width: 4rem;
@@ -33,7 +34,8 @@
             margin: 0 auto 1rem auto;
 
             img{
-                object-fit: contain;
+                -o-object-fit: contain;
+                   object-fit: contain;
                 max-width: 20rem;
                 max-height: 20rem;
                 display: block;
@@ -81,18 +83,29 @@
     .creators_work_feed_container{
         width: 96vw;
         margin: 2rem auto 0 auto;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-wrap: wrap;
-        align-content: flex-start;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -ms-flex-line-pack: start;
+            align-content: flex-start;
     }
 
     .work_feed_art_frame{
         background-color: $art_card_color;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        justify-content: center;
-        align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
         margin-bottom: 2vw;
-        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
         text-align: center;
         width: 30vw;
         height: 30vw;
@@ -105,7 +118,8 @@
         }
         
         img{
-            object-fit: contain;
+            -o-object-fit: contain;
+               object-fit: contain;
             border: 0;
             margin: 0;
 
@@ -118,13 +132,16 @@
 @include tablet{
 
     #tablet_profile_and_post_page_header{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
     }
 
     .profile_and_post_container{
         width: 100vw;
         padding-top: 8rem;
-        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
         overflow: auto;
 
 
@@ -141,8 +158,12 @@
         }
 
         .go_back_button_tablet_flex_parent{
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            justify-content: space-evenly;
+            -webkit-box-pack: space-evenly;
+                -ms-flex-pack: space-evenly;
+                    justify-content: space-evenly;
             margin: 0 auto;
         }
 
@@ -163,8 +184,12 @@
     }
 
     #work_card{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        justify-content: space-evenly;
+        -webkit-box-pack: space-evenly;
+            -ms-flex-pack: space-evenly;
+                justify-content: space-evenly;
         margin-left: 0;
         margin-right: 0;
         margin-top: 2rem;
@@ -197,8 +222,12 @@
 @include desktop{
 
     #profile_container{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        justify-content: space-between;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
         padding-left: 5vw;
         padding-right: 1vw;
 
@@ -272,7 +301,9 @@
         }
 
         #work_card{
-            justify-content: left;
+            -webkit-box-pack: left;
+                -ms-flex-pack: left;
+                    justify-content: left;
             padding-left: 10vw;
             padding-right: 10vw;
         }
