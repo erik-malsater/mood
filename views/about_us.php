@@ -64,10 +64,6 @@
                 <h2>How does it work</h2>
                 <p class="description_text">Right now Mood is in development but soon you'll be able to create your own profile and upload your work.</p>
             
-                <h2>Career</h2>
-                <p class="description_text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                 Voluptatem quo veniam nam obcaecati fugiat ullam quae! Saepe, quas ratione explicabo sequi c
-                 onsectetur assumenda dicta impedit? Enim atque error debitis numquam!</p>
             </div>
 
         </main>

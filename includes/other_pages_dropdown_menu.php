@@ -29,7 +29,7 @@
 
             <div class="drop_down_single_item_box">
 
-                <a href="about_us.php" aria-label="Go to about us page"><p>About</p></a>
+                <a href="about_us.php" id="dropdown_about_us_link" aria-label="Go to about us page"><p>About</p></a>
 
             </div>
 
