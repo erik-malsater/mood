@@ -3,16 +3,16 @@
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     width: 100vw;
     padding-top: 2rem;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     padding: 2rem 0 0 0;
     overflow: auto;
     -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
 
     .feed_header{
         width: 100vw;
@@ -45,8 +45,8 @@
     @include tablet{
         padding: 10rem 0 0 0;
         -webkit-box-pack: space-evenly;
-            -ms-flex-pack: space-evenly;
-                justify-content: space-evenly;
+        -ms-flex-pack: space-evenly;
+        justify-content: space-evenly;
 
         .feed_header{
             margin-bottom: 2rem;
@@ -64,8 +64,8 @@
             display: -ms-flexbox;
             display: flex;
             -webkit-box-pack: space-evenly;
-                -ms-flex-pack: space-evenly;
-                    justify-content: space-evenly;
+            -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
             width: 100vw;
             margin: 0 auto;
         }

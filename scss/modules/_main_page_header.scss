@@ -11,13 +11,13 @@
     .header_search_form_field{
         height: 2.5rem;
         -webkit-box-flex: 1;
-            -ms-flex: auto;
-                flex: auto;
+        -ms-flex: auto;
+        flex: auto;
         margin-right: 0.3rem;
         border: none;
         padding-left: 0.5rem;
         -webkit-box-sizing: border-box;
-                box-sizing: border-box;
+        box-sizing: border-box;
         background-color: $inactive_form_field_color;
     }
 
@@ -63,8 +63,8 @@
         display: -ms-flexbox;
         display: flex;
         -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
         width: 85vw;
         font-size: 0.9rem;
 
@@ -77,14 +77,14 @@
         position: absolute;
         left: 50%;
         -webkit-transform: translate(-50%, 0);
-            -ms-transform: translate(-50%, 0);
-                transform: translate(-50%, 0);
+        -ms-transform: translate(-50%, 0);
+        transform: translate(-50%, 0);
         bottom: 2rem;
         width: 12rem;
         padding: 0.75rem;
         border-radius: 3rem;
         -webkit-box-sizing: border-box;
-                box-sizing: border-box;
+        box-sizing: border-box;
     }
 
     @include tablet{
@@ -93,12 +93,12 @@
         display: flex;
         height: 6rem;
         -webkit-box-pack: justify;
-            -ms-flex-pack: justify;
-                justify-content: space-between;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
         padding-left: 1rem;
         padding-right: 1rem;
         -webkit-box-sizing: border-box;
-                box-sizing: border-box;
+        box-sizing: border-box;
         position: fixed;
 
         h1{
@@ -111,8 +111,8 @@
         form{
             margin: 2rem 1rem 0 1rem;
             -webkit-box-flex: auto;
-                -ms-flex-positive: auto;
-                    flex-grow: auto;
+            -ms-flex-positive: auto;
+            flex-grow: auto;
             max-width: 40rem;
         }
 
@@ -121,8 +121,8 @@
             margin-top: 2rem;
             margin: 2rem 1rem 0 1rem;
             -webkit-transform: none;
-                -ms-transform: none;
-                    transform: none;
+            -ms-transform: none;
+            transform: none;
             width: 14rem;
         }
     }

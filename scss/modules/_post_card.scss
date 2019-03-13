@@ -1,7 +1,7 @@
 .post_card{
     text-align: center;
     -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
     margin: 0 1rem 2rem 1rem;
 
     a{
@@ -30,18 +30,18 @@
             display: -ms-flexbox;
             display: flex;
             -webkit-box-pack: center;
-                -ms-flex-pack: center;
-                    justify-content: center;
+            -ms-flex-pack: center;
+            justify-content: center;
             -webkit-box-align: center;
-                -ms-flex-align: center;
-                    align-items: center;
+            -ms-flex-align: center;
+            align-items: center;
             margin-bottom: 1rem;
             -webkit-box-sizing: border-box;
-                    box-sizing: border-box;
+            box-sizing: border-box;
 
             img{
                 -o-object-fit: contain;
-                   object-fit: contain;
+                object-fit: contain;
                 max-width: 19rem;
                 max-height: 19rem;
                 border: 0;

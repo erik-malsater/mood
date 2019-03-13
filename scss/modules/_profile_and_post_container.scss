@@ -8,7 +8,7 @@
     padding-top: 4.5rem;
     overflow: auto;
     -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
 
     #go_back_button{
         width: 4rem;
@@ -35,7 +35,7 @@
 
             img{
                 -o-object-fit: contain;
-                   object-fit: contain;
+                object-fit: contain;
                 max-width: 20rem;
                 max-height: 20rem;
                 display: block;
@@ -87,9 +87,9 @@
         display: -ms-flexbox;
         display: flex;
         -ms-flex-wrap: wrap;
-            flex-wrap: wrap;
+        flex-wrap: wrap;
         -ms-flex-line-pack: start;
-            align-content: flex-start;
+        align-content: flex-start;
     }
 
     .work_feed_art_frame{
@@ -98,14 +98,14 @@
         display: -ms-flexbox;
         display: flex;
         -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
         -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
         margin-bottom: 2vw;
         -webkit-box-sizing: border-box;
-                box-sizing: border-box;
+        box-sizing: border-box;
         text-align: center;
         width: 30vw;
         height: 30vw;
@@ -119,7 +119,7 @@
         
         img{
             -o-object-fit: contain;
-               object-fit: contain;
+            object-fit: contain;
             border: 0;
             margin: 0;
 
@@ -141,7 +141,7 @@
         width: 100vw;
         padding-top: 8rem;
         -webkit-box-sizing: border-box;
-                box-sizing: border-box;
+        box-sizing: border-box;
         overflow: auto;
 
 
@@ -162,8 +162,8 @@
             display: -ms-flexbox;
             display: flex;
             -webkit-box-pack: space-evenly;
-                -ms-flex-pack: space-evenly;
-                    justify-content: space-evenly;
+            -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
             margin: 0 auto;
         }
 
@@ -188,8 +188,8 @@
         display: -ms-flexbox;
         display: flex;
         -webkit-box-pack: space-evenly;
-            -ms-flex-pack: space-evenly;
-                justify-content: space-evenly;
+        -ms-flex-pack: space-evenly;
+        justify-content: space-evenly;
         margin-left: 0;
         margin-right: 0;
         margin-top: 2rem;
@@ -226,8 +226,8 @@
         display: -ms-flexbox;
         display: flex;
         -webkit-box-pack: justify;
-            -ms-flex-pack: justify;
-                justify-content: space-between;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
         padding-left: 5vw;
         padding-right: 1vw;
 
@@ -302,8 +302,8 @@
 
         #work_card{
             -webkit-box-pack: left;
-                -ms-flex-pack: left;
-                    justify-content: left;
+            -ms-flex-pack: left;
+            justify-content: left;
             padding-left: 10vw;
             padding-right: 10vw;
         }
