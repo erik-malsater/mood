@@ -24,13 +24,28 @@
         }
     }
 
+    .profile_card{
+        width: 100vw;
+        margin: 0 auto 1rem auto;
+
+        .profile_picture_frame{
+            width: 20rem;
+            margin: 0 auto 1rem auto;
+
+            img{
+                object-fit: contain;
+                max-width: 20rem;
+                max-height: 20rem;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+    }
+
     #work_card{
         margin-left: 0;
         margin-right: 0;
-    }
-
-    #solo_card{
-        margin: 0 auto 2rem auto;
     }
 
     .art_frame{
@@ -112,6 +127,19 @@
         box-sizing: border-box;
         overflow: auto;
 
+
+        .profile_card{
+
+            .profile_picture_frame{
+                width: 40vw;
+
+                img{
+                    max-width: 40vw;
+                    max-height: 30rem;
+                }
+            }
+        }
+
         .go_back_button_tablet_flex_parent{
             display: flex;
             justify-content: space-evenly;
@@ -178,34 +206,24 @@
             width: inherit;
             margin-left: 0;
             margin-right: 0;
-        }
 
-        #solo_card{
-            width: 28vw;
-            //background-color: $art_card_color;
-            //background-color: #F5F5F5;
-            padding: 2rem 1rem 2rem 1rem;
+            .profile_card{
+                width: initial;
+                margin-top: 2rem;
 
-            .art_frame{
-                width: 24vw;
-                //height: 24vw;
-                height: initial;
-
-                img{
-                    max-width: 23vw;
-                    max-height: 23vw;
-                    margin-bottom: 1rem;
-                    border: 1px solid $inactive_form_field_color;
+                .description_text{
+                    max-width: 25vw;
                 }
 
-                .profile_name_header{
-                    margin-bottom: 1rem;
+                .profile_picture_frame{
+                    width: initial;
+    
+                    img{
+                        max-width: 25vw;
+                        max-height: 25vw;
+                    }
                 }
             }
-        }
-
-        .description_text{
-            width: initial;
         }
 
         .creators_work_container{

@@ -57,8 +57,8 @@
 
                 </div>
 
-                <div class="post_card" id="solo_card">
-                    <div class="art_frame">
+                <div class="profile_card">
+                    <div class="profile_picture_frame">
                         <img src="<?=$fetched_profile['profile_picture']?>" alt="<?=$fetched_profile['name']?>">
                     </div>
                     <h2 class="profile_name_header"><?=$fetched_profile['name']?></h2>
