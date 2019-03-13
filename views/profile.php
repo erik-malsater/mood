@@ -69,8 +69,6 @@
 
             <div class="creators_work_container">
 
-                <h2>Works</h2>
-
                 <div class="creators_work_feed_container">
 
                         <?php include '../includes/creators_work_feed_card.php' ?>

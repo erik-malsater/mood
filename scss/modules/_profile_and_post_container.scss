@@ -182,16 +182,24 @@
 
         #solo_card{
             width: 28vw;
-            background-color: $art_card_color;
-            padding: 1rem;
+            //background-color: $art_card_color;
+            //background-color: #F5F5F5;
+            padding: 2rem 1rem 2rem 1rem;
 
             .art_frame{
                 width: 24vw;
-                height: 24vw;
+                //height: 24vw;
+                height: initial;
 
                 img{
                     max-width: 23vw;
                     max-height: 23vw;
+                    margin-bottom: 1rem;
+                    border: 1px solid $inactive_form_field_color;
+                }
+
+                .profile_name_header{
+                    margin-bottom: 1rem;
                 }
             }
         }
