@@ -16,7 +16,7 @@
             <h1>Mood</h1>
         </a>
 
-        <form action="views/search.php" method="post" id="header_search_form">
+        <form action="search.php" method="post" id="header_search_form">
 
             <input type="text" name="search" id="header_search_form_field" class="header_search_form_field" placeholder="Search for works and creators">
 
@@ -58,13 +58,16 @@
                 </div>
 
                 <h2>About us</h2>
-                <p class="description_text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi quidem ex aut quasi laudantium, eum consequatur harum non. Architecto explicabo vero culpa officia tempore molestiae illo odio cumque ad nulla?</p>
+                <p class="description_text">We recognize the importance of art and creative expression and the need for a place to share it.
+                We are trying to create a community for everybody who wants to get inspired and inspire other.</p>
 
                 <h2>How does it work</h2>
-                <p class="description_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, natus eius iure aliquid enim sapiente itaque incidunt inventore, tenetur modi minima aliquam id cumque ullam nihil, doloribus explicabo eveniet nam?</p>
+                <p class="description_text">Right now Mood is in development but soon you'll be able to create your own profile and upload your work.</p>
             
                 <h2>Career</h2>
-                <p class="description_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quo veniam nam obcaecati fugiat ullam quae! Saepe, quas ratione explicabo sequi consectetur assumenda dicta impedit? Enim atque error debitis numquam!</p>
+                <p class="description_text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Voluptatem quo veniam nam obcaecati fugiat ullam quae! Saepe, quas ratione explicabo sequi c
+                 onsectetur assumenda dicta impedit? Enim atque error debitis numquam!</p>
             </div>
 
         </main>

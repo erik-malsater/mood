@@ -3,7 +3,19 @@
     h2{
         text-align: center;
         margin: 2rem auto 1rem auto;
+        width: 90vw;
+        max-width: 30rem;
     }
 
+    @include tablet{
+        .description_text{
+            max-width: 40rem;
+        }
+
+        h2{
+            max-width: 40rem;
+            text-align: left;
+        }
+    }
     
 }
