@@ -17,9 +17,9 @@
 
             <form action="views/search.php" method="post" id="header_search_form">
 
-                <input type="text" name="search" id="header_search_form_field" class="header_search_form_field" placeholder="Search for works and creators">
+                <input type="search" name="search" id="header_search_form_field" class="header_search_form_field" placeholder="Search for works and creators" aria-label="Search text field">
 
-                <button type="submit" id="header_search_form_button" class="header_search_form_button" form="header_search_form" value="submit" aria-label="Search">
+                <button type="submit" id="header_search_form_button" class="header_search_form_button" form="header_search_form" value="submit" aria-label="Submit search">
                     <img src="images/search_icon2.png" alt="Search icon">
                 </button>
 
