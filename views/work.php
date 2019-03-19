@@ -1,3 +1,8 @@
+<?php
+            include '../includes/fetch_single_post.php';
+            include '../includes/other_pages_dropdown_menu.php';
+?>
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -7,7 +12,7 @@
         <link rel="stylesheet" href="../css/style.css">
         <script src="http://code.jquery.com/jquery-latest.js"></script>
         <script type="text/javascript" src="../js/functions.js"></script>
-        <title>Mood - A Way To Share Art</title>
+        <title>Mood - <?=$fetched_post['name']?></title>
     </head>
 
     <header id="tablet_profile_and_post_page_header">
@@ -32,18 +37,6 @@
     </header>
 
     <body>
-        
-        <?php
-            include '../includes/fetch_single_post.php';
-        ?>
-
-
-        <?php
-
-            include '../includes/other_pages_dropdown_menu.php';
-
-        ?>
-
 
         <main class="profile_and_post_container">
 

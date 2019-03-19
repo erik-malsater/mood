@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="../css/style.css">
         <script src="http://code.jquery.com/jquery-latest.js"></script>
         <script type="text/javascript" src="../js/functions.js"></script>
-        <title>Mood - A Way To Share Art</title>
+        <title>Mood - About Us</title>
     </head>
 
     <header id="tablet_profile_and_post_page_header">
