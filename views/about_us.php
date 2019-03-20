@@ -61,7 +61,7 @@
 
                 <h2>About us</h2>
                 <p class="description_text">We recognize the importance of art and creative expression and the need for a place to share it.
-                We are trying to create a community for everybody who wants to get inspired and inspire other.</p>
+                We are trying to create a community for everybody who wants to get inspired and inspire others.</p>
 
                 <h2>How does it work</h2>
                 <p class="description_text">Right now Mood is in development but soon you'll be able to create your own profile and upload your work.</p>
