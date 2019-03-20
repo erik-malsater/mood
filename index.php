@@ -8,6 +8,7 @@
         <script src="http://code.jquery.com/jquery-latest.js"></script>
         <script type="text/javascript" src="js/functions.js"></script>
         <title>Mood - A Way To Share Art</title>
+        <link rel="shortcut icon" href="images/favicon.png" type="image/png">
     </head>
     <body>
 

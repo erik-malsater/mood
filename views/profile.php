@@ -1,8 +1,3 @@
-<?php
-        include '../includes/fetch_profile.php';
-        include '../includes/other_pages_dropdown_menu.php';
-?>
-
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -10,8 +5,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge, shrink-to-fit=no">
         <link rel="stylesheet" href="../css/style.css">
+        <link rel="shortcut icon" href="../images/favicon.png" type="image/png">
         <script src="http://code.jquery.com/jquery-latest.js"></script>
         <script type="text/javascript" src="../js/functions.js"></script>
+        <?php
+            include '../includes/fetch_profile.php';
+            include '../includes/other_pages_dropdown_menu.php';
+        ?>
         <title>Mood - <?=$fetched_profile['name']?></title>
     </head>
 

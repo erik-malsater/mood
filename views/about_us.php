@@ -8,6 +8,8 @@
         <script src="http://code.jquery.com/jquery-latest.js"></script>
         <script type="text/javascript" src="../js/functions.js"></script>
         <title>Mood - About Us</title>
+        <link rel="shortcut icon" href="../images/favicon.png" type="image/png">
+
     </head>
 
     <header id="tablet_profile_and_post_page_header">
