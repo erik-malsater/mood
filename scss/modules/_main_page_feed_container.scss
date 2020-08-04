@@ -5,7 +5,7 @@
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    width: 100vw;
+    width: 100%;
     padding-top: 2rem;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
@@ -15,7 +15,7 @@
     box-sizing: border-box;
 
     .feed_header{
-        width: 100vw;
+        width: 100%;
         margin-bottom: 1rem;
     }
 
@@ -24,7 +24,7 @@
     }
 
     .go_back_button_tablet_flex_parent{
-        width: 100vw;
+        width: 100%;
     }
 
     #go_back_button{
@@ -66,7 +66,7 @@
             -webkit-box-pack: space-evenly;
             -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
-            width: 100vw;
+            width: 100%;
             margin: 0 auto;
         }
 
